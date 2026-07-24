@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "title": "Every Hour",
+    "artists": [
+      "David Leonard",
+      "Josh Baldwin"
+    ],
+    "album": "",
+    "year": 2021
+  },
+  "style": {
+    "background-color": "#000000",
+    "color": "#ffffff",
+    "border": "2px solid #555555",
+    "border-radius": "6px",
+    "padding": "12px",
+    "font-family": "Bebas Neue",
+    "font-size": "18px"
+  },
+  "components": {
+    "Verse 1": [
+      ["Lord you know me", "and You always will"],
+      ["Yeah You keep me", "yeah You hold me close"],
+      ["Like new mercies", "in the morning still"],
+      ["You surround me", "and all I know is"]
+    ],
+    "Chorus": [
+      ["Every hour", "of every day"],
+      ["Oh I need you Lord", "and that will never change"],
+      ["Every moment", "in every way"],
+      ["Oh I need you Lord", "and that will never change"]
+    ],
+    "Verse 2": [
+      ["You're my fortress", "You're my hiding place"],
+      ["You're the shelter", "where I am safe"],
+      ["You have freed me", "You have called me by name"],
+      ["My redeemer", "my saving grace"]
+    ],
+    "Bridge": [
+      ["Faithful", "that's who You are"],
+      ["More than able", "to care for my heart"],
+      ["Father and friend", "there till the end"],
+      ["You are faithful", "oh God"]
+    ],
+    "Tag": [
+      ["and that will never change", ""]
+    ],
+    "Intro": [
+      ["", ""]
+    ],
+    "Instrumental": [
+      ["", ""]
+    ],
+    "PassThrough": [
+      ["", ""]
+    ],
+    "Ending": [
+      ["", ""]
+    ],
+    "Outro": [
+      ["", ""]
+    ]
+  },
+  "arrangements": {
+    "Default": [
+      "Intro",
+      "Verse 1",
+      "Chorus",
+      "Tag",
+      "Instrumental",
+      "Verse 2",
+      "Chorus",
+      "Bridge",
+      "Chorus",
+      "Instrumental",
+      "Chorus",
+      "Tag",
+      "Outro"
+    ]
+  },
+  "default_arrangement": "Default"
+}

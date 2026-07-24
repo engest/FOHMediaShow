@@ -1,0 +1,9 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file alias="icon.png">Media/logo0_192.png</file>
+    <file alias="splash.png">Media/logo0.png</file>
+    <file alias="default_font.ttf">Media/BebasNeue-Regular.ttf</file>
+    <file alias="up_arrow.png">Media/up_arrow.png</file>
+    <file alias="down_arrow.png">Media/down_arrow.png</file>
+</qresource>
+</RCC>

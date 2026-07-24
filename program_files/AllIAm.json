@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "title": "All I Am",
+    "artists": [
+      "Mallory Wickham",
+      "Phil Wickham"
+    ],
+    "album": "",
+    "year": 2011
+  },
+  "style": {
+    "background-color": "#000000",
+    "color": "#ffffff",
+    "border": "2px solid #555555",
+    "border-radius": "6px",
+    "padding": "12px",
+    "font-family": "Bebas Neue",
+    "font-size": "18px"
+  },
+  "components": {
+    "Verse 1": [
+      ["Take these hands", ""],
+      ["I know they're empty", "but with You they can"],
+      ["Be used for beauty", "in Your perfect plan"],
+      ["All I am is Yours", ""]
+    ],
+    "Verse 2": [
+      ["Take these feet", ""],
+      ["I know they stumble", "but You use the weak"],
+      ["You use the humble", "so please use me"],
+      ["All I am is Yours", ""]
+    ],
+    "Soft Chorus": [
+      ["I give You all my life", "I'm letting it go"],
+      ["A living sacrifice", "no longer my own"],
+      ["All I am is Yours", "all I am is Yours"]
+    ],
+    "Verse 3": [
+      ["Take this heart"],
+      ["Set it on fire", "shining in the dark"],
+      ["I want to tell the world", "of who You are"],
+      ["All I am is Yours", ""]
+    ],
+    "Chorus": [
+      ["I give You all my life", "I'm letting it go"],
+      ["A living sacrifice", "no longer my own"],
+      ["All I am is Yours", "all I am is Yours"],
+      ["I give You everything", "to You I belong"],
+      ["Every beat of my heart", "the breath in my lungs"],
+      ["All I am is Yours", "all I am is Yours"]
+    ],
+    "Bridge": [
+      ["I lift my hands up", "God I surrender"],
+      ["All that I am for Your glory", "Your honor Your fame"],
+      ["I lift my hands up", "God I surrender to You"]
+    ],
+    "PassThrough": [
+      ["", ""]
+    ],
+    "Instrumental": [
+      ["", ""]
+    ],
+    "Intro": [
+      ["", ""]
+    ],
+    "Outro": [
+      ["", ""]
+    ]
+  },
+  "arrangements": {
+    "Default": [
+      "Intro",
+      "Verse 1",
+      "Verse 2",
+      "Soft Chorus",
+      "Instrumental",
+      "Verse 3",
+      "Chorus",
+      "Bridge",
+      "PassThrough",
+      "Bridge",
+      "PassThrough",
+      "Chorus",
+      "Outro"
+    ],
+    "Communion": [
+      "Intro",
+      "Verse 1",
+      "Soft Chorus",
+      "Chorus",
+      "Outro"
+    ]
+  },
+  "default_arrangement": "Default"
+}

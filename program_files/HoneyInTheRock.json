@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "title": "Honey In The Rock",
+    "artists": [
+      "Brooke Ligertwood",
+      "Brandon Lake"
+    ],
+    "album": "Seven",
+    "year": 2022
+  },
+  "style": {
+    "background-color": "#000000",
+    "color": "#ffffff",
+    "border": "2px solid #555555",
+    "border-radius": "6px",
+    "padding": "12px",
+    "font-family": "Bebas Neue",
+    "font-size": "18px"
+  },
+  "components": {
+    "Chorus 1": [
+      ["There's honey in the rock", "Water in the stone"],
+      ["Manna on the ground", "No matter where I go"],
+      ["I don't need to worry", "Now that I know"],
+      ["Everything I need You've got", "There's honey in the rock"]
+    ],
+    "Verse 1": [
+      ["Praying for a miracle", "Thirsty for the Living Well"],
+      ["Only You can satisfy", ""],
+      ["Sweetness at the mercy seat", "Now I've tasted it's not hard to see"],
+      ["Only You can satisfy", ""]
+    ],
+    "Refrain": [
+      ["There's honey in the rock", ""],
+      ["There's honey in the rock", ""],
+      ["There's honey in the rock", ""],
+      ["There's honey in the rock", ""]
+    ],
+    "Verse 2": [
+      ["Freedom where the Spirit is", "Bounty in the wilderness"],
+      ["You will always satisfy", ""]
+    ],
+    "Chorus 2": [
+      ["There's honey in the rock", "Water in the stone"],
+      ["Manna on the ground", "No matter where I go"],
+      ["I don't need to worry", "Now that I know"],
+      ["Everything I need You've got", ""]
+    ],
+    "Chorus 3": [
+      ["There's honey in the rock", "Purpose in Your plan"],
+      ["Power in the blood", "Healing in Your hands"],
+      ["Started flowing when", "You said it is done"],
+      ["Everything You did's enough", ""]
+    ],
+    "Bridge 1": [
+      ["I keep looking I keep finding", "You keep giving Keep providing"],
+      ["I have all that I need", "You are all that I need"],
+      ["I keep praying You keep moving", "I keep praising You keep proving"],
+      ["I have all that I need", "You are all that I need"]
+    ],
+    "Chorus 4": [
+      ["There's honey in the rock", "Purpose in Your plan"],
+      ["Power in the blood", "Healing in Your hands"],
+      ["Started flowing when", "You said it is done"],
+      ["Jesus", "Who You are is enough"]
+    ],
+    "Tag": [
+      ["I have all that I need", "You are all that I need"]
+    ],
+    "Ending": [
+      ["Oh how sweet how sweet it is", "to trust in you Jesus"]
+    ],
+    "Intro": [
+      ["",""]
+    ],
+    "Instrumental": [
+      ["",""]
+    ],
+    "PassThrough": [
+      ["",""]
+    ],
+    "Outro": [
+      ["", ""]
+    ]
+  },
+  "arrangements": {
+    "Default": [
+      "Intro",
+      "Chorus 1",
+      "PassThrough",
+      "Verse 1",
+      "Refrain",
+      "PassThrough",
+      "Verse 2",
+      "Chorus 2",
+      "Chorus 3",
+      "Bridge 1",
+      "Bridge 1",
+      "Tag",
+      "Chorus 2",
+      "Chorus 4",
+      "Refrain",
+      "Ending",
+      "Ending",
+      "Ending",
+      "Outro"
+    ],
+    "Short Service": [
+      "Intro",
+      "Chorus 1",
+      "Refrain",
+      "Ending",
+      "Ending",
+      "Ending",
+      "Outro"
+    ]
+  },
+  "default_arrangement": "Default"
+}

@@ -1,0 +1,9 @@
+---
+show_title: "Sunday Morning Service"
+---
+- deck: "AllIAm.json"
+  arrangement: "Default"
+- deck: "EveryHour.json"
+  arrangement: "Default"
+- deck: "JesusDrawMeClose.json"
+  arrangement: "Default"

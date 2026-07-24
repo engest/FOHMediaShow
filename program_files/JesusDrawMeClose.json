@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "title": "Jesus Draw Me Close",
+    "artists": [
+      "Rick Founds"
+    ],
+    "album": "",
+    "year": 1990
+  },
+  "style": {
+    "background-color": "#000000",
+    "color": "#ffffff",
+    "border": "2px solid #555555",
+    "border-radius": "6px",
+    "padding": "12px",
+    "font-family": "Bebas Neue",
+    "font-size": "18px"
+  },
+  "components": {
+    "Verse 1": [
+      ["Jesus draw me close", "Closer Lord to You"],
+      ["Let the world around me fade away", ""],
+      ["Jesus draw me close", "Closer Lord to You"],
+      ["For I desire to worship and obey", ""]
+    ],
+    "Tag": [
+      ["For I desire to worship and obey", ""]
+    ],
+    "Intro": [
+      ["", ""]
+    ],
+    "Instrumental": [
+      ["", ""]
+    ],
+    "PassThrough": [
+      ["", ""]
+    ],
+    "Outro": [
+      ["", ""]
+    ]
+  },
+  "arrangements": {
+    "Default": [
+      "Intro",
+      "Verse 1",
+      "Instrumental",
+      "Verse 1",
+      "PassThrough",
+      "Verse 1",
+      "Tag",
+      "Outro"
+    ]
+  },
+  "default_arrangement": "Default"
+}

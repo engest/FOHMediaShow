@@ -1,0 +1,52 @@
+stages:
+  - build
+
+build_macos:
+  stage: build
+  tags:
+    - saas-macos-medium-m1  # Adjust this tag to match your GitLab macOS runner executor
+  rules:
+    - when: never # Disabled: GitLab macOS runners require a paid tier
+#    - if: '$CI_PIPELINE_SOURCE == "push" && ($CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "master")'
+#    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && ($CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main" || $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "master")'
+#    - if: '$CI_PIPELINE_SOURCE == "web"' # Equivalent to workflow_dispatch
+
+  script:
+    - |
+      echo "Installing dependencies (Protobuf)..."
+      export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
+      brew untap aws/tap || true
+      brew install protobuf python3
+
+      echo "Installing aqtinstall..."
+      python3 -m pip install --upgrade pip
+      python3 -m pip install aqtinstall
+
+      echo "Installing Qt..."
+      python3 -m aqt install-qt mac desktop 6.10.3 -m qtmultimedia
+
+      echo "Locating Qt Path..."
+      export QT_DIR="$CI_PROJECT_DIR/6.10.3/macos"
+      echo "Qt installed at: $QT_DIR"
+
+      echo "Configuring CMake..."
+      export Qt6_DIR="$QT_DIR/lib/cmake/Qt6"
+      cmake -B build -S . -DCMAKE_BUILD_TYPE=Release
+
+      echo "Building Project..."
+      cmake --build build --config Release --parallel 2
+
+      echo "Running macdeployqt..."
+      APP_BUNDLE=$(find build -name "*.app" -maxdepth 3 | head -n 1)
+      if [ -z "$APP_BUNDLE" ]; then
+        echo "Error: Could not find .app bundle"
+        exit 1
+      fi
+      echo "Found app bundle: $APP_BUNDLE"
+      $QT_DIR/bin/macdeployqt "$APP_BUNDLE" -qmldir=qml -always-overwrite -codesign=- -dmg
+
+  artifacts:
+    name: "FOHMedia-macOS-Binary"
+    paths:
+      - build/*.dmg
+    expire_in: 7 days
