@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/fohmedia/images">
+    <file alias="splash.png">Media/logo0.png</file>
+</qresource>
+<qresource prefix="/fohmedia/fonts">
+    <file alias="BebasNeue-Regular.ttf">Media/BebasNeue-Regular.ttf</file>
+</qresource>
+<qresource>
+    <file alias="icon.png">Media/logo0_192.png</file>
+    <file alias="default_font.ttf">Media/BebasNeue-Regular.ttf</file>
+</qresource>
+</RCC>

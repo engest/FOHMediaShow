@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=FOHMedia
+Exec=@CMAKE_CURRENT_BINARY_DIR@/FOHMediaShow
+Icon=@CMAKE_CURRENT_SOURCE_DIR@/Media/logo0_192.png
+Terminal=false
+Categories=AudioVideo;
+StartupWMClass=FOHMediaShow
